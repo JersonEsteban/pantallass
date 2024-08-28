@@ -1,0 +1,455 @@
+body{
+    background-color: aqua;
+}
+
+.border{
+    border: 1px solid black;
+
+}
+
+
+@media screen and (max-width:300px){
+    body{
+        background-color: rgb(238, 208, 12);
+        
+    }
+    header{
+        background-color: antiquewhite;
+        height: 40vh;
+        text-align: center;
+        padding: 2em;
+    }
+    main{
+        height: 50vh;
+        flex-wrap: wrap;
+    }
+    .sm-1{
+        width: 8.33%;
+
+    }
+    .sm-2{
+        width: 16.66%;
+    }
+    .sm-3{
+        width: 25%;
+    }
+    .sm-4{
+        width: 33.33%;
+    }
+    .sm-5{
+        width: 41.66%;
+    }
+    .sm-6{
+        width: 50%;
+        
+    }
+    .sm-7{
+        width: 58.33%;
+    }
+    .sm-8{
+        width: 66.66%;
+    }
+    .sm-9{
+        width: 75%;
+    }
+    .sm-10{
+        width: 83.33%;
+    }
+    .sm-11{
+        width: 91.66%;
+        
+    }
+    .sm-12{
+        width: 100%;
+    }
+    .content{
+        height: 50%;
+    }
+
+    .content img{
+        height: 100%;
+        width: 100%;
+    }
+    .dis{
+        display: none;
+    }
+
+    footer{
+        height: 15vh;
+        background-color: darkgoldenrod;
+        text-align: center;
+    }
+    
+
+    
+    
+    
+}
+
+@media screen and (min-width: 301px) and (max-width:600px){
+    body{
+        background-color: blue;
+
+    }
+    .dis{
+        display: none;
+    }
+    header{
+        background-color: antiquewhite;
+        height: 40vh;
+        padding: 1em;
+        
+    }
+    .md-1{
+        width: 8.33%;
+        text-align: center;
+        margin: auto;
+
+    }
+    .md-2{
+        width: 16.66%;
+        text-align: center;
+        margin: auto;
+    }
+    .md-3{
+        width: 25%;
+        text-align: center;
+        margin: auto;
+    }
+    .md-4{
+        width: 33.33%;
+        text-align: center;
+        margin: auto;
+    }
+    .md-5{
+        width: 41.66%;
+        text-align: center;
+    }
+    .md-6{
+        width: 50%;
+        text-align: center;
+    
+        
+    }
+    .md-7{
+        width: 58.33%;
+        text-align: center;
+        margin: auto;
+    }
+    .md-8{
+        width: 66.66%;
+        text-align: center;
+        margin: auto;
+    }
+    .md-9{
+        width: 75%;
+        text-align: center;
+        margin: auto;
+    }
+    .md-10{
+        width: 83.33%;
+        text-align: center;
+        margin: auto;
+    }
+    .md-11{
+        width: 91.66%;
+        text-align: center;
+        margin: auto;
+        
+    }
+    .md-12{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+
+    main{
+        height: 50vh;
+    }
+    .content{
+        height: 50%;
+    }
+
+    .content img{
+        height: 100%;
+        width: 100%;
+    }
+    footer{
+        height: 15vh;
+        background-color: aqua;
+    }
+    
+
+    
+}
+
+@media screen and (min-width: 601px) and (max-width:900px){
+    body{
+        background-color: red;
+
+
+    }
+    header{
+        background-color: rgb(230, 184, 165);
+        height: 20vh;
+    }
+
+    
+    .mg-1{
+        width: 8.33%;
+        text-align: center;
+        margin: auto;
+
+    }
+    .mg-2{
+        width: 16.66%;
+        text-align: center;
+        margin: auto;
+    }
+    .mg-3{
+        width: 25%;
+        text-align: center;
+        margin: auto;
+    }
+    .mg-4{
+        width: 33.33%;
+        text-align: center;
+        margin: auto;
+    }
+    .mg-5{
+        width: 41.66%;
+        text-align: center;
+        margin: auto;
+    }
+    .mg-6{
+        width: 50%;
+        text-align: center;
+        margin: auto;
+        
+    }
+    .mg-7{
+        width: 58.33%;
+        text-align: center;
+        margin: auto;
+    }
+    .mg-8{
+        width: 66.66%;
+        text-align: center;
+        margin: auto;
+    }
+    .mg-9{
+        width: 75%;
+        text-align: center;
+        margin: auto;
+    }
+    .mg-10{
+        width: 83.33%;
+        text-align: center;
+        margin: auto;
+    }
+    .mg-11{
+        width: 91.66%;
+        text-align: center;
+        margin: auto;
+        
+    }
+    .mg-12{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+
+    main{
+        height: 70vh;
+    }
+    .dis{
+
+        display: none;
+    }
+    footer{
+        height: 20vh;
+        background-color: brown;
+    }
+   
+    .content{
+        height: 50%;
+    }
+
+    .content img{
+        height: 100%;
+        width: 100%;
+    }
+
+    
+}
+
+@media screen and (min-width: 901px) and (max-width:1200px){
+    body{
+        background-color: rgb(221, 17, 207);
+
+    }
+   
+    header{
+        display: flex;
+        text-align: center;
+        background-color: rgb(58, 65, 71);
+        height: 10vh;
+        color: white;
+
+    }
+    .ml-1{
+        width: 8.33%;
+
+    }
+    .ml-2{
+        width: 16.66%;
+    }
+    .ml-3{
+        width: 25%;
+    }
+    .ml-4{
+        width: 33.33%;
+    }
+    .ml-5{
+        width: 41.66%;
+    }
+    .ml-6{
+        width: 50%;
+        
+    }
+    .ml-7{
+        width: 58.33%;
+    }
+    .ml-8{
+        width: 66.66%;
+    }
+    .ml-9{
+        width: 75%;
+    }
+    .ml-10{
+        width: 83.33%;
+    }
+    .ml-11{
+        width: 91.66%;
+        
+    }
+    .ml-12{
+        width: 100%;
+    }
+    main{
+        height: 80vh;
+        display: flex;
+        background-color: rgb(31, 59, 60);
+        color: aqua;
+        
+    }
+
+    footer{
+        height: 30vh;
+        background-color: rgb(112, 45, 107);
+        display: flex;
+        
+        color: white;
+        
+    }
+    .center{
+        text-align: center;
+    }
+   
+    
+    
+    .content{
+        width: 50%;
+        
+    }
+    .content img{
+        width: 100%;
+        height: 100%;
+    }
+
+    
+
+
+    
+}
+
+@media screen and (min-width: 1201px) {
+    body{
+        background-color: rgb(45, 211, 12);
+
+
+    }
+    header{
+        display: flex;
+        margin-top: auto;
+        text-align: center;
+        height: 10vh;
+       
+        background-color: antiquewhite;
+    }
+    .mt-1{
+        width: 8.33%;
+
+    }
+    .mt-2{
+        width: 16.66%;
+    }
+    .mt-3{
+        width: 25%;
+    }
+    .mt-4{
+        width: 33.33%;
+    }
+    .mt-5{
+        width: 41.66%;
+    }
+    .mt-6{
+        width: 50%;
+        
+    }
+    .mt-7{
+        width: 58.33%;
+    }
+    .mt-8{
+        width: 66.66%;
+    }
+    .mt-9{
+        width: 75%;
+    }
+    .mt-10{
+        width: 83.33%;
+    }
+    .mt-11{
+        width: 91.66%;
+        
+    }
+    .mt-12{
+        width: 100%;
+    }
+
+    main{
+        height: 80vh;
+        display: flex;
+        
+        background-color: cadetblue;
+        font-size: 24px;
+        border: 1px solid black;
+    }
+
+    footer{
+        height: 10vh;
+        display: flex;
+        justify-content: space-around;
+        background-color: darkgreen;
+    }
+    
+
+    .content{
+        width: 50%;
+    }
+    .content img{
+        width: 100%;
+        height: 100%;
+    }
+    
+}
